@@ -101,7 +101,7 @@ public class Fianium_µm extends javax.swing.JFrame {
 
     private void intensitySliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_intensitySliderStateChanged
   intensityNumber.setText(String.valueOf(intensitySlider.getValue())); 
-  /*mmc.setProperty("FianiumSC","Power output (%)",(int) Double.parseDouble(intensityNumber.getText())); 
+  //mmc.setProperty("FianiumSC", "Power output (%)", (int) Double.parseDouble(intensityNumber.getText());
   // TODO add your handling code here:
     }//GEN-LAST:event_intensitySliderStateChanged
 
